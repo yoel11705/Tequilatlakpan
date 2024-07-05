@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<img src="OCHENTINO.png"align="left" width="200"height="80">
+<img src="cbta.jpeg"align="right" width="100"height="100">
+<b style="text-align: center;"><font color="white" size="7" face="century">CENTRO DE BACHILLERATO TECNOLÓGICO AGROPECUARIO N.280</font></p></style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index.html</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        video {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            object-fit: cover;
+        }
+
+        .container {
+            position: relative;
+            z-index: 1;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+        }
+
+        h1 {
+            font-size: 4.5em;
+            margin-bottom: 1rem;
+        }
+
+        p {
+            font-size: 1.2em;
+            line-height: 1.5;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+            border: 1px solid white;
+            padding: 20px 20px;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <video autoplay muted loop>
+        <source src="flor.mp4" type="video/mp4">
+        <source src="tu-video.webm" type="video/webm">
+        Tu navegador no admite la etiqueta de video.
+    </video>
+
+
+    <div class="container">
+        <h1>Tequilatlakpan, Tequila Veracruz</h1>
+        <p>
+            Tequilatlakpan, un lugar mágico en Tequila, Veracruz, México, famoso por su distitas areas verdes, arquitectura colonial y tradiciones indígenas.
+        </p>
+        <p>
+            En Tequilatlakpan, puedes visitar sus distintos senderos, conocer la elaboracion de distintas artesanias y degustar los mejores platillos. Recorre sus calles empedradas, admira sus casas con balcones floridos y disfruta de su música y danza.
+        </p>
+        <a href="localizacion.html">Más información</a>
+    </div>
+</body>
+</html>
+
